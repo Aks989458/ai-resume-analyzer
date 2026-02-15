@@ -1,7 +1,6 @@
 skill
 python
 java
-c
 c++
 javascript
 typescript
@@ -56,3 +55,195 @@ statistics
 data structures
 algorithms
 system design
+bootstrap
+sass
+material ui
+chakra ui
+ant design
+shadcn ui
+framer motion
+responsive design
+ui/ux
+dom
+webpack
+vite
+babel
+eslint
+prettier
+jest
+react testing library
+cypress
+playwright
+axios
+redux toolkit
+react router
+zustand
+tanstack query
+oauth
+authentication
+authorization
+jwt
+cookies
+session management
+rbac
+api integration
+web sockets
+socket.io
+node
+npm
+yarn
+pnpm
+microservices
+monolith
+mvc
+orm
+prisma
+sequelize
+typeorm
+mongoose
+redis
+rabbitmq
+kafka
+celery
+nginx
+load balancing
+reverse proxy
+rate limiting
+caching
+logging
+monitoring
+prometheus
+grafana
+ci/cd
+github actions
+gitlab ci
+jenkins
+terraform
+ansible
+cloud deployment
+serverless
+aws lambda
+ec2
+s3
+rds
+cloudfront
+iam
+vpc
+route 53
+cloudwatch
+azure functions
+azure devops
+gcp cloud run
+bigquery
+firestore
+firebase auth
+firebase hosting
+supabase
+postgres
+sqlite
+nosql
+database design
+normalization
+indexing
+query optimization
+stored procedures
+views
+joins
+window functions
+data warehousing
+etl
+data pipelines
+airflow
+dbt
+spark
+hadoop
+big data
+data engineering
+feature engineering
+model training
+model evaluation
+hyperparameter tuning
+cross validation
+regression
+classification
+clustering
+dimensionality reduction
+pca
+time series
+anomaly detection
+recommendation systems
+xgboost
+lightgbm
+catboost
+random forest
+svm
+logistic regression
+linear regression
+neural networks
+cnn
+rnn
+lstm
+transformer
+fine tuning
+prompt engineering
+vector database
+faiss
+pinecone
+chroma
+rag
+model deployment
+mlops
+mlflow
+onnx
+torchscript
+tensorflow serving
+fastapi deployment
+docker deployment
+kubernetes deployment
+monitoring ml models
+data preprocessing
+data cleaning
+feature selection
+exploratory data analysis
+eda
+matplotlib
+seaborn
+plotly
+opencv
+image processing
+object detection
+yolo
+ssd
+face detection
+pose estimation
+ocr
+tesseract
+spacy
+nltk
+text preprocessing
+tokenization
+named entity recognition
+sentiment analysis
+topic modeling
+sqlalchemy
+pydantic
+uvicorn
+gunicorn
+pytest
+unit testing
+integration testing
+api testing
+postman
+swagger
+openapi
+linux commands
+bash
+shell scripting
+virtualization
+vmware
+networking
+http
+https
+dns
+ssl
+tls
