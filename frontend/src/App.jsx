@@ -136,7 +136,7 @@ export default function App() {
                 skills={result.missing_skills}
                 variant="missing"
               />
-              <RolePrediction rolePrediction={result.role_prediction} />
+              <RolePrediction result={result} />
             </div>
           </section>
         )}
