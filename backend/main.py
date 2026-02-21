@@ -21,6 +21,21 @@ UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 
+@app.delete("/clear-uploads")
+def clear_uploads():
+    upload_dir = "uploads"
+
+    if os.path.exists(upload_dir):
+        for filename in os.listdir(upload_dir):
+            file_path = os.path.join(upload_dir, filename)
+            try:
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
+            except Exception as e:
+                return {"error": str(e)}
+
+    return {"message": "Uploads cleared successfully"}
+
 @app.post("/analyze")
 async def analyze(
     resume_text: str = Form(""),

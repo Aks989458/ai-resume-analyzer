@@ -64,15 +64,23 @@ export default function App() {
     }
   }
 
-  function handleReset() {
-    setResumeFile(null);
-    setResumeText("");
-    setJobDescription("");
-    setJdFile(null);
-    setResult(null);
-    setError("");
+async function handleReset() {
+  try {
+    await fetch("http://127.0.0.1:8000/clear-uploads", {
+      method: "DELETE",
+    });
+  } catch (err) {
+    console.error("Failed to clear uploads", err);
   }
 
+  // Clear frontend state
+  setResumeFile(null);
+  setResumeText("");
+  setJobDescription("");
+  setJdFile(null);
+  setResult(null);
+  setError("");
+}
   return (
     <div className="app">
       <Header />
