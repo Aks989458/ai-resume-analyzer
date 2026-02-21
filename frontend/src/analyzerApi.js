@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://ai-resume-analyzer-z1pg.onrender.com";
 
 export async function analyzeResume({
   resumeText,
